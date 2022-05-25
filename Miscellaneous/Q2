@@ -1,0 +1,8 @@
+Ques2-write a python program to replace multiple spaces with single space in a text file.
+
+f1 = open("python.txt","rt")
+f2 = open("python1.txt","wt")
+for line in f1:
+	f2.write(' '.join(line.split()))
+f1.close()
+f2.close()
