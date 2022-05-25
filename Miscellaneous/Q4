@@ -1,0 +1,11 @@
+Ques4-Find the total occurrences of a specific word from a text file:
+
+count = 0
+w = input("Enter the words to search:")
+f1 = open("python.txt","r") 
+for i in f1:
+	words = i.split()
+      for j in words:
+      	if (j== w):
+            	count+=1
+    print(w, "found ", count, " times from the file")
