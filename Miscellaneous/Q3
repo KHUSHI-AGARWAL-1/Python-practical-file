@@ -1,0 +1,10 @@
+Ques3-write a python program to replace all spaces from text with – (dash).
+
+count = 0
+n = int(input("Enter no. characters to read:"))
+f1= open("python.txt","r") 
+data = f1.read()
+data=data.replace(' ','-')
+f1=open("python.txt","w") 
+f1.write(data)
+f1.close()
