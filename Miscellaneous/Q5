@@ -1,0 +1,8 @@
+Ques5-Write a python program to find the longest words.
+
+file=open('python.txt','r')
+longw=''
+for i in file:
+	if len(i)>len(longw):
+		longw=i
+		print(longw)
