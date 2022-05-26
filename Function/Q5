@@ -1,0 +1,31 @@
+Ques5. Write a function which counts vowels,consonant,digits and special characters  in a.
+
+def count(str):
+    v = 0
+    c = 0
+    sc = 0
+    d = 0
+    for i in range(0, len(str)):
+        ch = str[i]
+        if ( (ch >= 'a' and ch <= 'z') or
+             (ch >= 'A' and ch <= 'Z') ):
+            ch = ch.lower()
+            if (ch == 'a' or ch == 'e' or ch == 'i'
+                        or ch == 'o' or ch == 'u'):
+                v+= 1
+            else:
+                c+= 1 
+        elif (ch >= '0' and ch <= '9'):
+            d += 1
+        else:
+            sc += 1
+    print("Vowels:",v)
+    print("Consonant:",c)
+    print("Digit:",d)
+    print("Special Character:",sc)
+str = input()
+count(str)
+
+
+
+
