@@ -1,4 +1,4 @@
-Ques1-write a python program to read the content from a text file "poem.txt" line by line and display the same on screen.
+Ques1-write a python program to read the content from a text file "python.txt" line by line and display the same on screen.
 
 file = open("python.txt","r")
 count = 0
