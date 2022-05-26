@@ -1,0 +1,8 @@
+Ques3.Write a function to calculate volume of a box with length ,width,height of the box inputted by user.
+
+def vol( l,w,h) :
+    return l * w * h
+l = int(input("Enter the length : "))
+w = int(input("Enter the width : "))
+h = int(input("Enter the height : "))
+print("volume of box = ", vol(l,w,h))
