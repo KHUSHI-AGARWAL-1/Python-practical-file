@@ -1,0 +1,16 @@
+ques1. write a python program that takes two numbers and returns results if all airthmetic operations.
+
+def cal(n1,n2):
+	return x+y, x-y, x*y,x/y,x%y
+n1=int(input())
+n2=int(input())
+add=cal(n1,n2)
+sub=cal(n1,n2)
+mul=cal(n1,n2)
+div=cal(n1,n2)
+mod=cal(n1,n2)
+print("Addition:",add)
+print("Subtraction:",sub)
+print("Multiplication:",mul)
+print("Division:",div)
+print("Modulus:",mod)
