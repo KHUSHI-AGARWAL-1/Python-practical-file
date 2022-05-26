@@ -1,0 +1,7 @@
+Ques2. Write a function that takes amount-in-dollars and dollar-to-rupee conversion price ; it then returns the amount converted to rupees.
+
+def dolltorupee(amt,cprice):
+	return amt*cprice
+amt=int(input("enter amount"))
+cprice=int(input("enter conversion price"))
+r=print("converted rupee is",dolltorupee(amt,cprice))
