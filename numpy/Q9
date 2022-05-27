@@ -1,0 +1,8 @@
+Ques9. Write a NumPy program to insert a space between characters of all the elements of a given array.
+
+import numpy as np
+x = np.array(['python exercises', 'PHP', 'java', 'C++'], dtype=np.str)
+print("Original Array:")
+print(x)
+r = np.char.join(" ", x)
+print(r)
