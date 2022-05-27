@@ -1,0 +1,9 @@
+Ques5. Write a NumPy program to get the powers of an array values element-wise.Given that first array elements raised to powers from second array.
+
+import numpy as np
+x = np.arange(7)
+print("Original array")
+print(x)
+print("First array elements raised to powers from second array, element-wise:")
+print(np.power(x, 3))
+
