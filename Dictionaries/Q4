@@ -1,0 +1,17 @@
+Write a Python program to input names of 'n' customers and their details like items bought, cost and phone number, etc., store them in a dictionary and display all the 
+details in a tabular form.
+
+ dic = {}
+while True :
+    nam = input("Enter name :-")
+    phone = float(input("Enter phone number :-"))
+    cost = float(input("Enter cost :-"))
+    item = input("Enter item :-")
+    dic[ nam ] = [ phone , item , cost ]
+    a = input("Do you want to enter more records enter (Yes/ No) :- ")
+    if a == "No" or a == "no":
+        break
+for i in dic :
+    print()
+    print("Name : " i )
+    print("Phone : ", dic[ i ][ 0 ] , "\t", "Cost : ", dic[ i ][ 1 ] , "\t", "Item : ", dic[ i ][ 2 ])
