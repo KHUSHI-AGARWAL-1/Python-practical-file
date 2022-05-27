@@ -1,0 +1,11 @@
+Ques5. Write a program to enter names of employees and their salaries as input and store them in a dictionary.
+
+dict = { }
+while True :
+      n = input("Enter employee name :-")
+      s = int(input("Enter employee salary :-"))
+      dict[n] = s
+      a = input("Do you want to quit then enter yes :-")
+      if a == "yes" :
+            break
+print(dic)
