@@ -1,0 +1,14 @@
+Ques7. write a python function to remove all duplicate entries from list that it receives.
+
+def Rem(dup):
+    flist = []
+    for i in dup:
+        if i not in flist:
+            flist.append(i)
+    return flist
+dup = []
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    ele = int(input())
+    dup.append(ele)
+print(Rem(dup))
