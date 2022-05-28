@@ -1,0 +1,7 @@
+Ques10. Write a Python program to add two given lists using map and lambda.
+
+n1 = [1, 2, 3]
+n2 = [4, 5, 6]
+r = map(lambda x, y: x + y, n1, n2)
+print("\nResult: after adding two list")
+print(list(r))
