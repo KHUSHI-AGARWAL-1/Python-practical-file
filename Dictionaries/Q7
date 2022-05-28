@@ -1,0 +1,10 @@
+Ques7. write a program that reads a string from the keyboard and creates dictionary containing frequency of each character occuring in the string.
+
+str = input()
+frequencies = {} 
+for i in str: 
+   if i in frequencies: 
+      frequencies[i] += 1
+   else: 
+      frequencies[i] = 1
+print ("Per char frequency in '{}' is :\n {}".format(str,str(frequencies)))
