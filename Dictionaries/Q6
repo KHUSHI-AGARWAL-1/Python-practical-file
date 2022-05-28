@@ -1,0 +1,9 @@
+Ques6. create a list of cricketrs. use this list to create a dictionary in which the list values become key values of the dictionary. set the values of all keys to 50 in the dictionary created.
+
+lst = []
+n = int(input("Enter number of cricketers : "))
+for i in range(0, n):
+   cric = int(input())
+   lst.append(cric)
+d=dict.fromkeys(lst,50)
+print(d)
