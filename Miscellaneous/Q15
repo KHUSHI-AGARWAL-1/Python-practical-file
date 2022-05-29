@@ -1,0 +1,10 @@
+Ques15. Write a program to raise an exception during runtime of prime number program.
+
+l=int(input("enter lower limit"))
+u=int(input("enter upper limit"))
+for i in range (l,u+1):
+  a=i
+  for j in range (2,a//2):
+    if a%j==0:
+      raise Exception("Prime Exception")    
+  
