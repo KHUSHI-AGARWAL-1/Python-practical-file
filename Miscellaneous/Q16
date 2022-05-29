@@ -1,0 +1,6 @@
+Ques16. write a program to find area of circle using math module where radius is inputted by user.
+
+r=int(input("enter radiys")
+p=math.pi
+area=p*r*r
+print(area)
