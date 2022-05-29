@@ -1,0 +1,11 @@
+Ques14. write a python program to handle IOError produced by open().
+
+try:
+  n=input("enter filename:")
+  f=open(n.'r')
+except IOError:
+  print("entered file not found")
+else:
+  a=len(f.readlines())
+  print(n,"has",a,"lines")
+  f.close()
