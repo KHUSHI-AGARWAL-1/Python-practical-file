@@ -1,0 +1,9 @@
+Ques18. write a program to check whether a number's factorial is greater than 20 or not.if yes print hurrah! else print alas!.
+
+import math
+n=int(input("enter number"))
+f=math.factorial(n)
+if f>=20:
+  print("HURRAH!")
+else:
+   print("ALAS!")
