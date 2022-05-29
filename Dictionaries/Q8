@@ -3,7 +3,7 @@ Ques8. Write a Python program to concatenate two dictionaries to create a new on
 dic1={} 
 dic2={}
 s1=int(input("enter size for dictionary 1"))
-s1=int(input("enter size for dictionary 2"))
+s2=int(input("enter size for dictionary 2"))
 for i in range (0,s1):
   k1=input("enter key")
   v1=input("enter value")
