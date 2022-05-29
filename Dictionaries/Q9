@@ -1,0 +1,9 @@
+Ques9. write a python program to receive an dictionary from user and retreive the elements of the received dictionary.
+dic{}
+s=int(input("enter size for dictionary 2"))
+for i in range (0,s):
+  k=input("enter key")
+  v=input("enter value")
+  dic[k]=v
+for i,j in dic.items():
+  print(f"key={i} and value ={j}")
