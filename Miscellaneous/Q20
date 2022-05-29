@@ -1,0 +1,13 @@
+Ques20. Ram and shyam are playing a game in which they have to say a number and if the square root of number is greater than 5 than the respective player will win the game.Write a program to decide whho wins.
+
+import math 
+r=int(input("enter ram's number:"))
+s=int(input("enter shyam's number:"))
+rs=math.sqrt(r)
+ss=math.sqrt(s)
+if rs>5 :
+  print("Ram is winner") 
+elif ss>5 :
+    print("Shyam is winner") 
+else:
+    print("Noone wins the game") 
