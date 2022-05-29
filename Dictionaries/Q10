@@ -1,0 +1,17 @@
+Ques10. write a program to create a dictionary with cricketer name and their scores. also retrieve runs by entering players' name.
+
+cp={}
+n=int(input("enter no. of players"))
+for i in range (0,n):
+  k=input("enter player name")
+  v=input("enter runs")
+  cp[k]=v
+print("\n players in this match:")
+for i in cp.keys():
+  print(i)
+pn=input("enter player name:")
+run=cp.get(pn,-1)
+if run==-1:
+  print("player not found")
+else:
+  print(f"{pn} made runs {run}")
